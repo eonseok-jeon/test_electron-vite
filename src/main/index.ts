@@ -19,6 +19,7 @@ function createWindow(): void {
     }
   })
 
+  // 주석2 추가
   mainWindow.on('ready-to-show', () => {
     mainWindow.show()
   })
